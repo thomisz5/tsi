@@ -1,0 +1,71 @@
+html{
+    background: #edf2f9;
+    font-size: 20px;
+}
+h1{
+    margin:2rem;
+    text-align: center;
+    font: bold 3em sans-serif;
+}
+form{
+    widows: 500px;
+    margin: 0 auto 2rem;
+    padding:2rem;
+    border: 1px solid #edf2f9;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 7px 15px #3b415e1a;
+}
+h2{
+    margin-bottom: 1rem;
+    font: bold 1.2em sans-serif;
+    text-align: center;
+    color:#333;
+}
+.margem-baixo{
+    margin-bottom: 1rem;
+}
+.campo{
+    width: 100%;
+    padding: 7px 15px;
+    border: 1px solid #d8e2ef;
+    border-radius: 18px;
+    font-size:18px;
+}
+.campo:focus{
+    outline: 0;
+    border-color: rgb(157, 120, 204);
+    box-shadow: 0 0 4px rgb(157, 120, 204);
+}
+
+::placeholder{
+    color: rgb(157, 120, 204);
+}
+textarea{
+    min-height: 5em;
+}
+
+button{
+    cursor:pointer;
+    color: white;
+    background: rgb(157, 120, 204);
+    text-align: center;
+    border: 1px solid rgb(134, 76, 209);
+    border-radius: 5px;
+    padding:10px;
+    width: 100%;
+    font: bold 1em sans-serif;
+}
+button:hover{
+    background: rgb(112, 58, 184);
+}
+.cadastro{
+    text-align: center;
+}
+a:link,
+a:visited,
+a:active,
+a:hover{
+    color: rgb(157, 120, 204);
+    text-decoration: none;
+}

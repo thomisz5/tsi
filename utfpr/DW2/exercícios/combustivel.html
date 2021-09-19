@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var $ = function (id) {
+            return document.getElementById(id);
+        }
+        var calculadora = function (event) {
+            var kms = $("km").value;
+            kms = parseFloat(kms);
+
+
+            var litros = $("litro").value;
+            litros = parseFloat(litros);
+
+            if (isNaN(kms) || isNaN(litros)) {
+                alert("ambos os valores precisam ser numericos");
+            } else {
+                var kmPorLitro = kms / litros;
+                $("kmPorLitro").value = kmPorLitro;
+            }
+            alert("coordenada x " + event.clientX + "y " + event.clientY);
+        }
+        var calculadoraHandler = function () {
+            $("calculaBotao").onclick = calculadora;
+            $("km").focus();
+        }
+        window.addEventListener("load", calculadoraHandler);
+    </script>
+</head>
+
+<body>
+    <h1>Calculadora de consumo de combustivel</h1>
+    <section>
+        <label for="km">Total de Km percorridos:</label>
+        <input type="text" id="km">
+        <br>
+        <br>
+        <label for="litro">Total de litros consumidos></label>
+        <input type="text" id="litro">
+        <br>
+        <br>
+        <label for="kmPorLitro">Km por litro:</label>
+        <input type="text" id="kmPorLitro" disabled>
+        <br>
+        <br>
+        <input type="button" id="calculaBotao" value="Calcular">
+    </section>
+</body>
+
+</html>

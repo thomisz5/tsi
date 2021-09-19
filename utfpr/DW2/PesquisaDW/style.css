@@ -1,0 +1,23 @@
+h1 {
+    font-family: 'tahoma';
+    text-align: center;
+    color: white;
+}
+
+.s1 {
+    background: url('img1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.s2 {
+    background: url('img2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.s3 {
+    background: url('img3.jpg');
+    background-size: cover;
+    background-position: center;
+}

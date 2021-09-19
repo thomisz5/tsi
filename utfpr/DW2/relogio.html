@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>relogio</title>
+    <meta charset="UTF-8">
+
+    <script type="text/javascript">
+        function relogio() {
+            var hoje = new Date();
+            var horas = hoje.getHours();
+            var minutos = hoje.getMinutes();
+            var segundos = hoje.getSeconds();
+
+            var val_horas = ((horas < 10) ? "0" : " ") + horas;
+            var val_horas = val_horas + ((minutos < 10) ? ":0" : ":") + minutos;
+            var val_horas = val_horas + ((segundos < 10) ? ":0" : ":") + segundos;
+
+            document.forms.relog.visor.value = val_horas;
+            window.setTimeout("relogio()", 1000);
+        }
+    </script>
+</head>
+
+<body onload="relogio()" bgcolor="FFFFCC">
+    <center>
+        <hr size="2">
+        <h2>Relógio</h2>
+        <hr size="2">
+        <form name="relog" onsubmit="0">
+            <input type="text" name="visor" size="5">
+        </form>
+    </center>
+</body>
+
+</html>

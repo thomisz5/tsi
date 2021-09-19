@@ -1,0 +1,59 @@
+html{
+  font-size:  30px;
+}
+body{
+    font-size: 22px;
+}
+header{
+    padding: 3em 1em 3em 2em;
+    color: white;
+    background: linear-gradient(#b732dd, #00d4ff)
+}
+ h1{
+     font-size: 2em;
+     font-weight: bold;
+     text-transform: uppercase;
+     text-shadow: 2px 2px 5px black;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ nav{
+     padding: 1em 1em 1em 5em;
+     word-spacing: 4em;
+     font-style: italic;
+ }
+
+main>img{
+    border-top: 5px solid purple;
+    border-bottom: 5px solid purple;
+    padding: 1.2em 10em 1.2em 10em;
+    width: 100%;
+    image-orientation: center;
+}
+
+h2{
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 1em 1em 1em 5em;
+}
+ol{
+    margin-bottom: 1.2em;
+    padding: 1em 1em 1em 5em;
+}
+li{
+    margin-bottom: 1em;
+}
+li>img{
+    width: 7%;
+    position:
+}
+
+footer {
+	padding: .3em 1em .3em 2em;
+	background: linear-gradient(#ffcc00, #ccff33);
+	color: black;
+	font-size: .85em;
+	font-style: italic;
+	text-align: center;
+    text-shadow: 1px 1px 5px #aaaaaa;
+  }

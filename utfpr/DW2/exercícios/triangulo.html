@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>qual tipo de triangulo que é?</h1>
+
+    <script>
+        function triangulo(var1, var2, var3) {
+            var l1 = var1;
+            var l2 = var2;
+            var l3 = var3;
+
+            if (l1 < (l2 + l3) && l2 < (l1 + l3) && l3 < (l1 + l3)) {
+                if (l1 == l2 && l2 == l3) {
+                    return 'equilatero';
+                } else if (l1 == l2 || l1 == l3 || l3 == l2) {
+                    return 'isoceles';
+                } else {
+                    return 'escaleno';
+                }
+            } else {
+                return ' n forma triangulo';
+            }
+        }
+        // var l1, l2, l3;
+        //l1 = prompt('digite o valor de primeiro lado', "primeiro lado");
+        //l2 = prompt('digite o valor do segundo lado: ', 'segundo lado');
+        //l3 = prompt('digite o valor do terceiro: ', 'terceiro lado');
+
+        // if (l1 === l2 === l3) {
+        //   document.write('triangulo é equilatero!');
+        // } else if (l1 === l2 !== l3 && l1 !== l2) {
+        //   document.write('triangulo é isoceles!');
+        //} else if (l1 !== l2 !== l3) {
+        //   document.write('triangulo escaleno!');
+        //} else('resposta invalida');
+    </script>
+</body>
+
+</html>

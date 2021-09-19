@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <title>Cadastro</title>
+    <meta charset="utf-8">
+    <meta name="referrer" content="never">
+    <meta name="referrer" content="no-referrer">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Sistema Online</h1>
+    <form action="index.html" method="POST">
+        <h2>Cadastro</h2>
+        <div class="margem-baixo">
+            <h3>email</h3>
+            <input type="text" name="email" class="campo" placeholder="E-Mail" required autofocus>
+        </div>
+        <div class="margem-baixo">
+            <h3>senha</h3>
+            <input type="password" name="senha" class="campo" placeholder="Senha">
+        </div>
+        <div class="margem-baixo">
+            <select name="plano" class="campo" required>
+                <option value="">Escolher o plano:</option>
+                <option value="basico_mensal">Básico R$100,00</option>
+                <option value="pro_mensal">Pro R$150,00</option>
+                <option value="basico_anual">Basico Anual R$500,00</option>
+                <option value="pro_anual">Pro Anuel R$1000,00</option>
+            </select>
+        </div>
+        <div class="margem-baixo">
+            <textarea class="campo" placeholder="escreve aqui alguma coisa sobre sua vida medíocre"></textarea>
+        </div>
+        <div class="margem-baixo">
+            <input type="file" name="foto" class="campo">
+        </div>
+        <div class="margem-baixo">
+            Deseja receber promoções mano?
+            <label>
+                <input type="radio" name="promocao" value="sim" checked> lógico carai
+            </label>
+            <label>
+                <input type="radio" name="promocao" value="nao" checked> nunca mano
+            </label>
+            <div class="margem-baixo">
+                <button>Cadastrintao</button>
+            </div>
+            <div class="cadastro">
+                já tem cadastro mano? <a href="index.html">entra ai entao</a>
+            </div>
+        </div>
+    </form>
+</body>

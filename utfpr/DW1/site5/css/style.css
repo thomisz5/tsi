@@ -1,0 +1,57 @@
+html{
+    font-size: 20px;
+    background: #dedede;
+}
+
+header{
+    min-width: 900px;
+    background: lightskyblue;
+    color: grey;
+}
+.site-largura{
+    width: 900px;
+    margin: 0 auto;
+}
+h1{
+    padding: 1em 0;
+    margin-bottom: 1em;
+    font: 3em 'Bilbo';
+}
+#logo{
+    height: 0.8em;
+}
+nav{
+    margin-bottom: 1rem;
+    word-spacing: 3em;
+}
+
+main{
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+article{
+    float: left;
+    width: 25%;
+}
+.box{
+    margin: .5em;
+    padding: .5em;
+    background: #eeeeee;
+    border: 2px solid #bababa;
+    border-radius: 5px;
+    height: 12em;
+}
+h2{
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+footer{
+    min-width: 900px;
+    background: rgb(70, 179, 212);
+    padding: 1em;
+    text-align: center;
+    color:grey;
+    font-family: 'Bilbo';
+    line-height: 1.5em;
+}

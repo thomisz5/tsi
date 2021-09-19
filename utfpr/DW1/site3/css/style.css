@@ -1,0 +1,36 @@
+html{
+    background:url('../img/fundo.jpg');
+    margin: 1em auto;
+    color: #eeeeee;
+    font-size: 20px;
+    padding: 5em;
+}
+
+h1{
+    font: 3em cursive;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+h2{
+    font: 2em sans-serif;
+    margin-bottom: 2em;
+}
+figure{
+    margin-bottom: 5em;
+}
+
+figcaption{
+    font-style: italic;
+    margin-bottom: 2em;
+    font-size:2em;
+}
+
+img{
+    width: 100%;
+}
+footer{
+    text-align:center;
+    font-size: 90%;
+}
+

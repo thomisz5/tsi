@@ -1,0 +1,62 @@
+a:link,
+a:active,
+a:hover,
+a:visited{
+    color:inherit;
+    text-decoration: inherit;
+}
+
+.site-largura{
+    overflow: auto;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.menu-topo{
+    min-width: 900px;
+    padding: .5rem 0;
+    background: black;
+    color: white;
+    font: 80% sans-serif;
+}
+
+.menu-topo-left,
+.menu-topo-center,
+.menu-topo-right{
+     width: 33.33%;
+     float: left;
+}
+
+.menu-topo-left{
+    word-spacing: 1.5em;
+}
+.menu-topo-center{
+    text-align: center;
+}
+.menu-topo-right{
+    text-align: right;
+    word-spacing: 1.5em;
+}
+h1{
+    padding: 1rem 0;
+    font: bold 4em sans-serif;
+}
+.menu-principal{
+    border-top: 2px solid black;
+    padding: 1rem 0;
+    word-spacing: 1em;
+}
+img{
+    width: 30%;
+}
+aside{
+    margin-bottom: 2rem;
+}
+main{
+    overflow:auto;
+}
+.coluna-left{
+    float:left;
+    width: 65%;
+    padding right:1rem;
+}

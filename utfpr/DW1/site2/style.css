@@ -1,0 +1,55 @@
+html{
+    font-size: 24px;
+    padding: 2em;
+    background-color: #eeeeee;
+}
+
+header>img{
+    width: 40%;
+    margin-top: 40px;
+}
+header{
+    text-align: center;
+    font-size: 50px;
+}
+
+nav{
+    margin: 2em 0;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    word-spacing: 2em
+}
+
+main{
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+main>img{
+    width: 35%;
+    margin-bottom: 1em;
+}
+
+main>p{
+    margin-bottom: 1.2em;
+}
+footer{
+    text-align:center;
+}
+
+address{
+    text-align: center;
+}
+address>p{
+    margin-bottom: 0.5em;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+

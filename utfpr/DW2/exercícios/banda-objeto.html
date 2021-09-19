@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let Banda = function () { //Iniciação com Maiuscula pq É CLASSE
+            this.membros = membros;
+            this.nome = nome;
+            this.showMes = quantidadeShowMes;
+        }
+        let Cantor = function (nome, banda, cache) { //classe Cantor
+            this.nome = nome;
+            this.banda = banda;
+            this.cacheShow = cacheShow;
+            this.mostraDados = function () {
+                console.log(`Nome${this.nome} Banda${this.banda.nome}`);
+            }
+            this.mostrarFaturamento = function () {
+                console.log(`Faturamento Mês ${this.cacheShow * this.banda.showMes}`);
+            }
+        }
+        let limpbizkit = new Banda('limpbizkit', ['thomis', 'milico'],
+        2); //instanciando os objetos das classe q eu fiz em cima
+        let mac = new Cantor('Mac', limpbizkit, 200);
+        mac.mostraDados();
+        mac.mostrarFaturamento();
+        console.log(mac);
+    </script>
+
+</body>
+
+</html>
