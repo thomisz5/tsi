@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WEB II</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <!--Import Google Icon Font-->
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/libraries/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/libraries/materialize/css/materialize.css"
+    />
+    <link rel="stylesheet" href="assets/resources/styles/style.css" />
+  </head>
+
+  <body>
+    <div id="menu"></div>
+    <!-- container -->
+    <main>
+      <!-- container -->
+      <div class="container about">
+        <h5 class="">Jogo da Velha</h5>
+        <h6>
+          Vamos jogar! Existem 362.880 (ou 9!) maneiras de se dispor a cruz e o
+          círculo no tabuleiro.
+        </h6>
+        <hr />
+        <!-- linha -->
+        <div class="row">
+          <div class="col s12 center">
+            <img
+              src="assets/resources/images/jogo-da-velha/x-o.png"
+              height="200px"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 flow-text">
+            <p>
+              O jogo da velha é um jogo de passatempo popular. Diz uma lenda que
+              o jogo teria nascido em Portugal, na cidade de Almada no ano 545.
+              No entanto, só foi popularizado no ano de 1500, pelo descobridor
+              Pedro Álvares Cabral, que adorava jogar este jogo durante as suas
+              viagens. Porém, há indicações de que o jogo pode ter surgido no
+              antigo Egito, onde foram encontrados tabuleiros esculpidos na
+              rocha, que teriam mais de 3.500 anos.
+            </p>
+            <p>
+              O jogo é simples e pode ser jogado sobre um tabuleiro, num pedaço
+              de papel ou ainda em um tabuleiro digital construído com HTML, CSS
+              e JavaScript. A sua tarefa é construir uma aplicação para que mais
+              pessoas possam jogar este jogo tão cativante.
+            </p>
+            <p>Você precisa usar JQuery toda a vez que possível.</p>
+            <p>
+              Os seguintes itens precisam ser considerados na implementação:
+            </p>
+            <ul class="browser-default">
+              <li>
+                Usar as
+                <strong
+                  >imagens <em>png</em> e <em>o.png</em> para representar os
+                  símbolos cruz e círculo</strong
+                >
+                referentes aos jogos.
+              </li>
+              <li>
+                <strong
+                  >Usar as classes CSS disponíveis no arquivo
+                  <em>questao-1.css</em></strong
+                >
+                <ul>
+                  <li>
+                    Notar que há classes que fazem uso das imagens mencionadas
+                    acima para serem usadas como fundo das casas do tabuleiro
+                    que recebem cliques.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Uma sugestão é
+                <strong
+                  >usar as constantes <em>PLAYER_X</em> e
+                  <em>PLAYER_O</em></strong
+                >
+                para referenciar as imagens, classes de estilo e mesmo os
+                jogadores.
+                <ul>
+                  <li>
+                    Uma sugestão é fixar um jogador a um símbolo, ou seja, um
+                    jogador sempre faz uso do mesmo símbolo em todas as partidas
+                    realizadas.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Usar o tabuleiro já construído em HTML identificado pela classe
+                <em>.game</em>
+              </li>
+              <li>
+                <strong>Sortear o jogador a iniciar um jogo</strong> para tentar
+                evitar sempre iniciar com o mesmo símbolo.
+              </li>
+              <li>
+                Mostrar na tag com id <em>img-turn</em> a imagem referente ao
+                <strong>símbolo do jogador da vez</strong>.
+              </li>
+              <li>
+                <strong
+                  >Um novo jogo é iniciado pela atualização da página</strong
+                >
+                ou clique em um botão localizado como último elemento da página.
+              </li>
+              <li>
+                Ao clicar em uma casa vazia, a imagem do símbolo representativo
+                do jogador da vez deve aparecer como plano de fundo desta casa.
+              </li>
+              <li>
+                <strong
+                  >Se uma casa já contém a imagem de um símbolo (i.e. x ou o),
+                  esta não pode ser substituída por outro símbolo.
+                </strong>
+              </li>
+              <li>
+                Verificar a cada jogada se há jogador vencedor da partida.
+              </li>
+              <li>
+                Quando for verificado um vencedor,
+                <strong>desabilitar o clique nas casas</strong> por meio do
+                seguinte comando: <em>$('.game-item').off('click')</em>;
+              </li>
+              <li>
+                Quando houver vencedor, mostrar o <em>div</em> identificado por
+                <em>panel-winner</em> com <strong>efeito de cortina</strong> e
+                esconder o item identificado por <em>panel-turn</em>.
+              </li>
+              <li>
+                Também
+                <strong
+                  >verificar a situação de todas as casas estarem
+                  preenchidas</strong
+                >
+                e não haver vencedor. Neste caso, mostrar um alert com a
+                mensagem “Não houve vencedor”.
+              </li>
+              <li>
+                <strong
+                  >Armazenar um objeto para cada jogador no LocalStorage</strong
+                >. Cada objeto precisa ter os atributos símbolo e quantidade de
+                vitórias. Neste caso, o símbolo seria ‘x’ ou ‘o’, ou seja, o
+                próprio identificador do jogador.
+              </li>
+              <li>
+                Os dados armazenados no
+                <strong
+                  >LocalStorage precisam ser lidos no carregamento da
+                  página</strong
+                >. Assim, ao atualizar a página, a informação sobre a quantidade
+                de vitórias apresentada, será mantida.
+              </li>
+            </ul>
+            <hr />
+          </div>
+        </div>
+        <!-- fim linha -->
+      </div>
+      <!-- fim container-->
+      <!-- container -->
+      <div class="container">
+        <!-- vencedor-->
+        <div id="panel-winner" class="row grey lighten-2" style="display: none">
+          <div class="col s12 center">
+            <div class="card-panel">
+              <span class="title">O VENCEDOR É</span>
+              <br /><br /><br />
+              <img
+                id="img-winner"
+                src="assets/resources/images/jogo-da-velha/x.png"
+                width="80px"
+              />
+            </div>
+          </div>
+        </div>
+        <!--vencedor-->
+        <!-- vez-->
+        <div id="panel-turn" class="col s12 m4 center">
+          <div class="card-panel">
+            <span class="title">DE QUEM É A VEZ?</span>
+            <br /><br /><br />
+            <img
+              id="img-turn"
+              src="assets/resources/images/jogo-da-velha/x.png"
+              width="80px"
+            />
+          </div>
+        </div>
+        <!--fim vez-->
+        <!-- game -->
+        <div class="row">
+          <div class="col s12">
+            <div class="game center-block">
+              <div class="game-row">
+                <div id="1" class="game-item game-col"></div>
+                <div id="2" class="game-item game-col"></div>
+                <div id="3" class="game-item"></div>
+              </div>
+              <div class="game-row">
+                <div id="4" class="game-item game-col"></div>
+                <div id="5" class="game-item game-col"></div>
+                <div id="6" class="game-item"></div>
+              </div>
+              <div class="">
+                <div id="7" class="game-item game-col"></div>
+                <div id="8" class="game-item game-col"></div>
+                <div id="9" class="game-item"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- fim game-->
+        <!-- jogadores -->
+        <div class="grey lighten-2">
+          <div class="container">
+            <div class="row center">
+              <div class="col s12 m6">
+                <div class="card-panel" height="300px">
+                  <span class="title">JOGADOR</span><br />
+                  <img
+                    src="assets/resources/images/jogo-da-velha/x.png"
+                    width="30px"
+                  />
+                  <p class="amount" id="p-amount-x">0</p>
+                </div>
+              </div>
+              <div class="col s12 m6">
+                <div class="card-panel">
+                  <span class="title">JOGADOR</span><br />
+                  <img
+                    src="assets/resources/images/jogo-da-velha/o.png"
+                    width="30px"
+                  />
+                  <p class="amount" id="p-amount-o">0</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- fim jogadores-->
+        <!-- button -->
+        <div class="row">
+          <div class="col s12 center" style="margin-top: 30px">
+            <button
+              id="btn-play-again"
+              class="btn waves-effect waves-light btn-large blue"
+            >
+              JOGAR DE NOVO!
+            </button>
+          </div>
+        </div>
+        <!-- button -->
+      </div>
+      <!-- fim container -->
+    </main>
+
+    <div id="footer"></div>
+    <script src="assets/libraries/jquery/jquery-2.2.4.min.js"></script>
+    <script src="assets/libraries/materialize/js/materialize.js"></script>
+    <script src="assets/resources/scripts/common.js"></script>
+    <script src="assets/resources/scripts/question-5.js"></script>
+
+    <script>
+      $(function () {
+        $("#footer").load("footer.html");
+        $("#menu").load("menu.html");
+      });
+    </script>
+  </body>
+</html>
