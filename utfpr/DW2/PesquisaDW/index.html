@@ -13,22 +13,27 @@
 <body>
     <div id="fullpage">
         <div class="section s1">
-            <h1>Home</h1>
+            <h1>Bem vindo ao meu portifólio</h1>
+            <div class="btn">
+                <button class="cv-btn">Baixar CV</button>
+                <button class="gt-btn">Github</button>
+            </div>
         </div>
         <div class="section s2">
-            <h1>Sobre nós</h1>
+            <h1>Projetos</h1>
         </div>
         <div class="section s3">
-            <h1>Contact</h1>
+            <h1>Contato </h1>
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.js"></script>
     <script>
         new fullpage('#fullpage', {
+            scrollingSpeed: 600,
             autocrolling: true,
             navigation: true,
-            ancors: ['section1', 'section2', 'section3'],
-            navigationTooltips: ['Home', 'About us', 'Contact'],
+            //ancors: ['section1', 'section2', 'section3'],
+            navigationTooltips: ['Home', 'Projetos', 'Contact'],
             showActiveTooltip: true,
         })
     </script>

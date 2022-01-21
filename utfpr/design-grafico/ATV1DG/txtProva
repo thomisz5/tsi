@@ -1,0 +1,17 @@
+Uso de camadas e máscaras : máscara para recortar o fundo do hinata em cima da bicicleta para conseguir transporta-lo para a imagem de fundo.
+
+Filtros artísticos, luz, e sombra:
+- Filtro Drop-Shadow no Hinata de bicicleta, parâmetros de X 40, Y 40, Opacity 0.500.
+-Filtro drop-shadow no aokiji, parametros de x 60, y 60.
+- Filtro Sharpen(Unsharp Mask) no kaneda de moto, parâmetros Radius 14,967, Amount 0,947, Treshold 0,615
+-Filtro lighting effects -> lights com parametros padrões no hinata.
+
+Treshold no BillyBat, parâmetros 99, 255
+
+Blur e distorções:
+- Gaussian Blur no billy bat, parametros x 0,89, y 0.89.
+- Softglow no billybat, parametros: glow radius 13,971, brightness 0.294
+
+Limiarização: BillyBat para embranquece-lo, parametros 85, 255
+
+Teoria das cores: optei por tons quentes como vermelho por causa do ambiente que escolhi, a ponte, com isso adicionei elementos vermelhos como o Kaneda de moto e também mexi com a luz algumas vezes, utilizando de filtros para sombra e brilho.

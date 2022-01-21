@@ -96,6 +96,7 @@ $(document).ready(function () {
 
 
     $('#telefone-cliente').mask('0000-0000');
+
     const validaTelefone = () => {
         const regexTelefone = /[0-9]/;
         let tel = $('#telefone-cliente').val();
@@ -154,5 +155,4 @@ $(document).ready(function () {
         $('#relatorio').append(`<p class="bordered"> Tamanho: ${pedido.pizza.tamanho} - Sabores: ${pedido.pizza.sabores.join(', ')} - Cliente: ${pedido.cliente.nome}`)
     });
 
-
-})
+});

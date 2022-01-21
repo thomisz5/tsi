@@ -2,6 +2,8 @@ h1 {
     font-family: 'tahoma';
     text-align: center;
     color: white;
+    font-size: 60px;
+
 }
 
 .s1 {
@@ -20,4 +22,19 @@ h1 {
     background: url('img3.jpg');
     background-size: cover;
     background-position: center;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 60px;
+}
+
+.gt-btn {
+    background-color: orange;
+    color: white;
 }

@@ -48,7 +48,6 @@ $(document).ready(function () {
         $('#total-pagar-show-label').addClass('active'); //problema no html
     })
 
-
     $('#compra').on('submit', function (e) {
 
         if (validaNome() && validaQuantidade()) {
@@ -58,5 +57,6 @@ $(document).ready(function () {
             alert('Falha na compra')
         }
     })
+
 
 })
