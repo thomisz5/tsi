@@ -1,16 +1,16 @@
-#o que é um tipo de dado?#
-	um conceito abstrato, definido por um conjunto de propriedades lógicas, diferenciam -se pelo conjunto de valores que podem assumir, operacoes que podem ser efetuadas sobre esses dados, quantitades de bytes ocupadas e como serao interpretados.
+<h3> o que é um tipo de dado?
+	* um conceito abstrato, definido por um conjunto de propriedades lógicas, diferenciam -se pelo conjunto de valores que podem assumir, operacoes que podem ser efetuadas sobre esses dados, quantitades de bytes ocupadas e como serao interpretados.
 	tipos primitivos ou derivados, estáticos e dinamicos, como int, float e Scanner
 
-#existe diferença entre os tipos primitivo e tipos derivados?
-	tipos primitivos são os tipos básicos da linguagem, usado para declaração de tipos de dados ou a definicao de novos tipos pelo usuario, int float double char etc
-	tipos derivados são novos tipos de dados criado pela logica do usuario apartir de tipos primitivos ou derivados, feito especifico para a situação, ajuda na declaracao de menos variavies por exemplo
+<h3> existe diferença entre os tipos primitivo e tipos derivados?
+	* tipos primitivos são os tipos básicos da linguagem, usado para declaração de tipos de dados ou a definicao de novos tipos pelo usuario, int float double char etc
+	* tipos derivados são novos tipos de dados criado pela logica do usuario apartir de tipos primitivos ou derivados, feito especifico para a situação, ajuda na declaracao de menos variavies por exemplo
 	
-#Épossível representar na memória qualquer número pertencente ao conjunto dos
+<h3> Épossível representar na memória qualquer número pertencente ao conjunto dos
 numeros inteiros?
-	não pois a alocação de memória que vai ser utilizada para o numero é finita, diferente do conjunto dos inteiros, por isso somente uma faixa de valores é permitida, diferenciando pela linguagem
+	* não pois a alocação de memória que vai ser utilizada para o numero é finita, diferente do conjunto dos inteiros, por isso somente uma faixa de valores é permitida, diferenciando pela linguagem
 	
-#È possivel construir um tipo de dado derivado a partir de outro tipo derivado?
-	sim é possível, tipo computador, composto por hardware(int) nome(string) e bits(float)
+<h3> È possivel construir um tipo de dado derivado a partir de outro tipo derivado?
+	* sim é possível, tipo computador, composto por hardware(int) nome(string) e bits(float)
 	
 		
