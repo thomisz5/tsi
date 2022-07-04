@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IOO-p3/Agenda/Agenda.iml" filepath="$PROJECT_DIR$/IOO-p3/Agenda/Agenda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BlocoDeNotasFavoritas/BlocoDeNotasFavoritas.iml" filepath="$PROJECT_DIR$/BlocoDeNotasFavoritas/BlocoDeNotasFavoritas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IOO-2022.1.iml" filepath="$PROJECT_DIR$/.idea/IOO-2022.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOO-Craps/IOO-Craps.iml" filepath="$PROJECT_DIR$/IOO-Craps/IOO-Craps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOO-Simulado-P2/IOO-SIMULADO-P2-CONTA/IOO-SIMULADO-P2-CONTA.iml" filepath="$PROJECT_DIR$/IOO-Simulado-P2/IOO-SIMULADO-P2-CONTA/IOO-SIMULADO-P2-CONTA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOO-Simulado-P2/IOO-SIMULADO-P2-JANKENPO/IOO-SIMULADO-P2-JANKENPO.iml" filepath="$PROJECT_DIR$/IOO-Simulado-P2/IOO-SIMULADO-P2-JANKENPO/IOO-SIMULADO-P2-JANKENPO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOO-Simulado-P2/IOO-SIMULADO-P2-RODOVIA/IOO-SIMULADO-P2-RODOVIA.iml" filepath="$PROJECT_DIR$/IOO-Simulado-P2/IOO-SIMULADO-P2-RODOVIA/IOO-SIMULADO-P2-RODOVIA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOO-p4/IOO-p4.iml" filepath="$PROJECT_DIR$/IOO-p4/IOO-p4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOO-p4/IOO-p4-ContaBancaria/IOO-p4-ContaBancaria.iml" filepath="$PROJECT_DIR$/IOO-p4/IOO-p4-ContaBancaria/IOO-p4-ContaBancaria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOO-p4/IOO-p4-funcionarios/IOO-p4-funcionarios.iml" filepath="$PROJECT_DIR$/IOO-p4/IOO-p4-funcionarios/IOO-p4-funcionarios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOO-p4/IOO-p4-pedagio/IOO-p4-pedagio.iml" filepath="$PROJECT_DIR$/IOO-p4/IOO-p4-pedagio/IOO-p4-pedagio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOO-pessoa/IOO-pessoa.iml" filepath="$PROJECT_DIR$/IOO-pessoa/IOO-pessoa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOO-relogio/IOO-relogio.iml" filepath="$PROJECT_DIR$/IOO-relogio/IOO-relogio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOO_Retangulo/IOO_Retangulo.iml" filepath="$PROJECT_DIR$/IOO_Retangulo/IOO_Retangulo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOO-p3/agendaTeste/agendaTeste.iml" filepath="$PROJECT_DIR$/IOO-p3/agendaTeste/agendaTeste.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOO-p3/bloco-de-notas/bloco-de-notas.iml" filepath="$PROJECT_DIR$/IOO-p3/bloco-de-notas/bloco-de-notas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOO-p3/simulado-p3/simulado-p3.iml" filepath="$PROJECT_DIR$/IOO-p3/simulado-p3/simulado-p3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOO-p3/simulado-p3.2/simulado-p3.2.iml" filepath="$PROJECT_DIR$/IOO-p3/simulado-p3.2/simulado-p3.2.iml" />
+    </modules>
+  </component>
+</project>
