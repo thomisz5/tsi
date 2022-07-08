@@ -1,0 +1,24 @@
+• 1) O que significa alocação sequencial de memória para um conjunto de elementos?
+Os elementos ficam, necessariamente, emposições de memória adjacentes, ou ainda,"em sequência".
+
+• 2)O que significa alocação estática de memória para um conjunto de elementos?
+O espaço de memória para todos os elementosque poderão fazer parte do conjunto é dimensionado previamente. Esse espaço de memória permanecerá reservado durante toda a execução do programa, mesmo que não estiver sendo efetivamente utilizado
+
+• 3)Qual a diferença entre alocação sequencial e alocação encadeada?
+ -Alocação Sequencial: Os elementos são armazenados na sequência física de memória, como sabemos onde estão e o tamanho de cada um, a busca de um elemento é mais rápida.
+ -Alocação encadeada: Cada elemento precisa armazenar o endereço do próximo elemento, já que eles não estão na sequencia física da memória, para a busca de um elemento precisamos percorrer toda a estrutura, já que a informação de onde está o elemento sempre está no seu antecessor.
+
+• 4)Quais as vantagens de se utilizar alocação encadeada para um conjunto de elementos? Quais as possíveis desvantagens?
+- Desvantagens
+	. Acesso indireto aos elementos
+	. Tempo variável para acessar os elementos (depende da posição do elemento)
+	. Gasto de memória maior pela necessidade de um novo campo para o ponteiro
+- Vantagens
+	. A inserção e remoção de elementos podem ser feitas sem deslocar os itens seguintes da 		lista
+	. Não há necessidade de previsão do número de elementos da lista; o espaço necessário é 		alocado em tempo de execução
+	. Facilita o gerenciamento de várias listas (fusão, divisão,...)
+
+• 5)Qual a diferença entre alocação estática e alocação dinâmica?
+ -Na alocação estática o espaço de memória, que as variáveis irão utilizar durante a execução do programa, é definido no processo de compilação. Não sendo possível alterar o tamanho desse espaço durante a execução do programa.
+
+-Na alocação dinâmica o espaço de memória, que as variáveis irão utilizar durante a execução do programa, é definido enquanto o programa está em execução. Ou seja, quando não se sabe ao certo quanto de memória será necessário para o armazenamento das informações, podendo ser determinadas, sob demanda, em tempo de execução conforme a necessidade do programa.
