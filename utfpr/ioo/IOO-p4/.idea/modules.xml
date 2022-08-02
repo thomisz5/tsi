@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IOO-p4.iml" filepath="$PROJECT_DIR$/IOO-p4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOO-p4-ContaBancaria/IOO-p4-ContaBancaria.iml" filepath="$PROJECT_DIR$/IOO-p4-ContaBancaria/IOO-p4-ContaBancaria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOO-p4-funcionarios/IOO-p4-funcionarios.iml" filepath="$PROJECT_DIR$/IOO-p4-funcionarios/IOO-p4-funcionarios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOO-p4-pedagio/IOO-p4-pedagio.iml" filepath="$PROJECT_DIR$/IOO-p4-pedagio/IOO-p4-pedagio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prova4-ioo-thomas/prova4-ioo-thomas.iml" filepath="$PROJECT_DIR$/prova4-ioo-thomas/prova4-ioo-thomas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uri1992-feito/uri1992-feito.iml" filepath="$PROJECT_DIR$/uri1992-feito/uri1992-feito.iml" />
+    </modules>
+  </component>
+</project>

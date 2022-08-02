@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/utfpr/DW2/DW2.iml" filepath="$PROJECT_DIR$/utfpr/DW2/DW2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ED1/ED1.iml" filepath="$PROJECT_DIR$/utfpr/ED1/ED1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/PROVA2IOO/PROVA2IOO.iml" filepath="$PROJECT_DIR$/utfpr/ioo/PROVA2IOO/PROVA2IOO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/Prova2/Prova2.iml" filepath="$PROJECT_DIR$/utfpr/ioo/Prova2/Prova2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/Prova2 corrigida/Prova2 corrigida.iml" filepath="$PROJECT_DIR$/utfpr/ioo/Prova2 corrigida/Prova2 corrigida.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/Prova2.2/Prova2.2.iml" filepath="$PROJECT_DIR$/utfpr/ioo/Prova2.2/Prova2.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/Prova3/Prova3.iml" filepath="$PROJECT_DIR$/utfpr/ioo/Prova3/Prova3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/Prova3IOO/Prova3IOO.iml" filepath="$PROJECT_DIR$/utfpr/ioo/Prova3IOO/Prova3IOO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/Teorica2/Teorica2.iml" filepath="$PROJECT_DIR$/utfpr/ioo/Teorica2/Teorica2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/Teorica3/Teorica3.iml" filepath="$PROJECT_DIR$/utfpr/ioo/Teorica3/Teorica3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/contaBancariaHerança/contaBancariaHerança.iml" filepath="$PROJECT_DIR$/utfpr/ioo/contaBancariaHerança/contaBancariaHerança.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/enrico/enrico.iml" filepath="$PROJECT_DIR$/utfpr/ioo/enrico/enrico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/ioo.iml" filepath="$PROJECT_DIR$/utfpr/ioo/ioo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/p4.3 (2022.2)/p4.3 (2022.2).iml" filepath="$PROJECT_DIR$/utfpr/ioo/p4.3 (2022.2)/p4.3 (2022.2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/teorica/teorica.iml" filepath="$PROJECT_DIR$/utfpr/ioo/teorica/teorica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tsi.iml" filepath="$PROJECT_DIR$/.idea/tsi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/uri1006/uri1006.iml" filepath="$PROJECT_DIR$/utfpr/ioo/uri1006/uri1006.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/uri1012/uri1012.iml" filepath="$PROJECT_DIR$/utfpr/ioo/uri1012/uri1012.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/uri1015/uri1015.iml" filepath="$PROJECT_DIR$/utfpr/ioo/uri1015/uri1015.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/uri1041/uri1041.iml" filepath="$PROJECT_DIR$/utfpr/ioo/uri1041/uri1041.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/uri1047/uri1047.iml" filepath="$PROJECT_DIR$/utfpr/ioo/uri1047/uri1047.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/uri1049/uri1049.iml" filepath="$PROJECT_DIR$/utfpr/ioo/uri1049/uri1049.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/uri1145/uri1145.iml" filepath="$PROJECT_DIR$/utfpr/ioo/uri1145/uri1145.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/uri1160/uri1160.iml" filepath="$PROJECT_DIR$/utfpr/ioo/uri1160/uri1160.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/uri1589/uri1589.iml" filepath="$PROJECT_DIR$/utfpr/ioo/uri1589/uri1589.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/uri1930/uri1930.iml" filepath="$PROJECT_DIR$/utfpr/ioo/uri1930/uri1930.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/uri2311/uri2311.iml" filepath="$PROJECT_DIR$/utfpr/ioo/uri2311/uri2311.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utfpr/ioo/uri3047/uri3047.iml" filepath="$PROJECT_DIR$/utfpr/ioo/uri3047/uri3047.iml" />
+    </modules>
+  </component>
+</project>
