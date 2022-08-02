@@ -11,6 +11,7 @@ public class Agenda {
 
     public Agenda() {
         contatos = new ArrayList<>();
+        telefone = new ArrayList<>();
 
     }
 
@@ -29,7 +30,7 @@ public class Agenda {
 
 
     public boolean registraTelefone(Contato telefone) {
-        if (telefone.eValidoOFormatoDo()) {
+        if (telefone.eValidoOFormatoDo(telefone)) {
             contatos.add(telefone);
             return true;
         }
